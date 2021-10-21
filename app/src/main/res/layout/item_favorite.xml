@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp"
+        android:background="@drawable/product_holder">
+
+
+        <TextView
+            android:id="@+id/product_name_favorite"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginLeft="143dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginRight="58dp"
+            android:text="product_name"
+            android:textColor="@color/brown"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/product_description_favorite"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/product_name_favorite"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginTop="7dp"
+            android:text="la descrition du produit"
+            android:textColor="@color/dark_brown"
+            android:textColorHint="@color/brown"
+            android:textSize="10sp" />
+
+
+        <ImageButton
+            android:id="@+id/see_product_favorite"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_below="@+id/Product_description"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="17dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/biege"
+            android:src="@drawable/see_product" />
+
+        <TextView
+            android:id="@+id/product_price_favorites"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Product_description"
+            android:layout_alignBottom="@+id/product_description_favorite"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="52dp"
+            android:layout_marginRight="52dp"
+            android:layout_marginBottom="-21dp"
+            android:layout_toStartOf="@+id/see_product_favorite"
+            android:layout_toLeftOf="@+id/see_product_favorite"
+            android:text="prix produit"
+            android:textAlignment="center"
+            android:textColor="@color/dark_brown" />
+
+        <ImageView
+            android:id="@+id/product_image_fav"
+            android:layout_width="130dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/capo" />
+
+        <ImageButton
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/biege"
+            app:srcCompat="@drawable/petite"
+            tools:layout_editor_absoluteX="-5dp"
+            tools:layout_editor_absoluteY="12dp" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

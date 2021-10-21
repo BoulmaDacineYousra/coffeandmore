@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CoffeeAndMore</string>
+    <string name="email_object">Coffe and more code de verification </string>
+    <string name="email">Votre code de vérification est : </string>
+
+    <string name="suite">  <br></br> Si vous n avez pas demandé ce code de vérification, vous
+    pouvez ignorer cet e-mail en toute sécurité. Quelqu un d autre a peut-être
+    tapé votre adresse e-mail par erreur. <br></br>
+    Cet e-mail a été généré automatiquement. Merci de ne pas répondre  </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="favorite">
+    Sign up is complete. <br />
+    Enjoy a new shopping life at fatherofapps.com!!
+</string>
+    <string name="sing_up">
+        <font color="#">Don’t have an account ?</font>
+        <font color="#9B6549">Sign Up</font>
+    </string>
+    <string name="sing_in">
+        <font color="#">Don’t have an account ?</font>
+        <font color="#9B6549">Sign In</font>
+    </string>
+    <string name="find_the_be">
+      Find the  best <br></br> coffee for you...!
+</string>
+
+</resources>
